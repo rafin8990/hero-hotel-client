@@ -4,10 +4,15 @@ import picture1 from '../../../assets/334471092_221469993757657_2033339528433816
 import picture2 from '../../../assets/Primary-Colorful-Bedroom.jpg'
 import picture3 from '../../../assets/Built-in-Bunk-Beds.jpg'
 import picture4 from '../../../assets/discount.jpg'
+import picture5 from '../../../assets/country.jpg'
+
 
 const Bookings = () => {
     return (
         <div>
+            <div >
+                <img className='w-100' src={picture5} alt="" />
+            </div>
             <div className='container mt-5'>
                 <div>
                     <h1 className='text-center mt-5 '>Hotels <span className='font-weight-bold text-success'>Booking Open Now!</span></h1>
@@ -78,7 +83,7 @@ const Bookings = () => {
 
             </div>
             <div className='mt-5'>
-                <img src={picture4} alt="" />
+                <img className='w-100' src={picture4} alt="" />
             </div>
         </div>
     );

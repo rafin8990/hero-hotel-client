@@ -9,7 +9,7 @@ const Navber = () => {
         <div>
             <Navbar bg='success' collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand className='text-white' href="/home">
+                    <Navbar.Brand className='text-white' href="/">
                         <img src="" alt="" />
                         Hero Hotel
                     </Navbar.Brand>
