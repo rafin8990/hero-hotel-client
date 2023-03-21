@@ -1,4 +1,5 @@
 import React from 'react';
+import Bookings from '../Bookings/Bookings';
 import Categories from '../Categories/Categories';
 import Header from '../Header/Header';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Categories></Categories>
+            <Bookings></Bookings>
             
         </div>
     );

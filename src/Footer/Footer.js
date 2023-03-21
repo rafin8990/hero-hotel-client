@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-5'>
             <footer
                 className="text-center text-lg-start text-dark"
                 style={{backgroundColor: "#ECEFF1"}}
