@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
 
@@ -33,7 +34,7 @@ const Categories = () => {
                                         lead-in to additional content. This content is a little bit
                                         longer.
                                     </Card.Text>
-                                    <Button variant='outline-success' className='w-100'>View Category</Button>
+                                    <Link to={`/category/${category.name}`}><Button variant='outline-success' className='w-100'>View Category</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>)

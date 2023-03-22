@@ -21,9 +21,6 @@ const Navber = () => {
                         </Nav>
                         <Nav>
                             <Nav.Link className='text-white' href="#deets">Login</Nav.Link>
-                            <Nav.Link className='text-white' eventKey={2} href="#memes">
-                               Dark Mode
-                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

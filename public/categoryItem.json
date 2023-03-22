@@ -1,5 +1,110 @@
 [
     {
-        "":""
+        "name":"The One Smart LivingOpens in new window",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://www.kayak.com/rimg/himg/6a/49/cf/expediav2-2376436-11bb55-835909.jpg?width=720&height=576&crop=true"
+    },
+    {
+        "name":"Villa MungkalaOpens in new window",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://cdn-img.readytotrip.com/t/1024x768/content/cd/e8/cde8bee996dfd24a988cfaf4636346f076a382a3.jpeg"
+    },
+    {
+        "name":"The Inn SaladaengOpens in new window",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://q-xx.bstatic.com/xdata/images/hotel/max500/57572149.jpg?k=173446e8abe9ca5e668739a79829f376c657a0bb9813bfd20c15bf12c4d2536e&o="
+    },
+    {
+        "name":"Lamphu Tree House Boutique HotelOpens in new window",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://pix10.agoda.net/hotelImages/6903724/-1/d62260cb318a576983c5dd8f92771400.jpg?ca=29&ce=0&s=1024x768"
+    },
+    {
+        "name":"Amari Watergate BangkokOpens in new window",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/09/66/9b/deluxe-twin.jpg?w=700&h=-1&s=1"
+    },
+    {
+        "name":"City Plaza Nana Hotel",
+        "price":"5000",
+        "categoryName":"Premium",
+        "picture":"https://images.trvl-media.com/lodging/36000000/35860000/35853400/35853355/30e9162e.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium"
+    },
+    {
+        "name":"Sodsai GardenOpens in new window",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://images.trvl-media.com/lodging/36000000/35860000/35853400/35853355/d3215774.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium"
+    },
+    {
+        "name":"The Ember HotelOpens in new window",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/3f/01/55/premier-hotel-or-tambo.jpg?w=700&h=-1&s=1"
+    },
+    {
+        "name":"Darin HostelOpens in new window",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NRiPnLcPv4gxjAoXb4qx2dk7RTo2CUC6qNXCxI2IPpFxYErkeDkxzQ3-ZVCdHvll9_E&usqp=CAU"
+    },
+    {
+        "name":"Neighbor PhuthonOpens in new window",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://www.sa-venues.com/visit/premierhotelortambo/07.jpg"
+    },
+    {
+        "name":"Narra HotelOpens in new window",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://dimg04.c-ctrip.com/images//0220p1200087mcalx4BBC_R_550_412.jpg"
+    },
+    {
+        "name":"U&D guest house",
+        "price":"5000",
+        "categoryName":"Medium",
+        "picture":"https://images.trvl-media.com/lodging/36000000/35860000/35853400/35853355/30e9162e.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium"
+    },
+    {
+        "name":"Sodsai GardenOpens in new window",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://images.trvl-media.com/lodging/36000000/35860000/35853400/35853355/d3215774.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium"
+    },
+    {
+        "name":"The Ember HotelOpens in new window",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/3f/01/55/premier-hotel-or-tambo.jpg?w=700&h=-1&s=1"
+    },
+    {
+        "name":"Darin HostelOpens in new window",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NRiPnLcPv4gxjAoXb4qx2dk7RTo2CUC6qNXCxI2IPpFxYErkeDkxzQ3-ZVCdHvll9_E&usqp=CAU"
+    },
+    {
+        "name":"Neighbor PhuthonOpens in new window",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://www.sa-venues.com/visit/premierhotelortambo/07.jpg"
+    },
+    {
+        "name":"Narra HotelOpens in new window",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://dimg04.c-ctrip.com/images//0220p1200087mcalx4BBC_R_550_412.jpg"
+    },
+    {
+        "name":"U&D guest house",
+        "price":"5000",
+        "categoryName":"Primary",
+        "picture":"https://images.trvl-media.com/lodging/36000000/35860000/35853400/35853355/30e9162e.jpg?impolicy=fcrop&w=670&h=385&p=1&q=medium"
     }
 ]
