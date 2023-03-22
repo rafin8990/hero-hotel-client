@@ -4,7 +4,6 @@ import ItemDetails from '../ItemDetails/ItemDetails';
 
 const Items = () => {
     const categoryItems = useLoaderData();
-    console.log(categoryItems)
     return (
         <div className='container'>
             <div>
@@ -20,6 +19,7 @@ const Items = () => {
                     ></ItemDetails>)
                 }
             </div>
+            
         </div>
     );
 };
