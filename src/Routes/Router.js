@@ -21,12 +21,12 @@ export const router = createBrowserRouter([
             {
                 path: '/category/:categoryName',
                 element: <Items></Items>,
-                loader: ({ params }) => fetch(`http://localhost:5000/category?categoryName=${params.categoryName}`)
+                loader: ({ params }) => fetch(`https://hero-hotel-server.vercel.app/category?categoryName=${params.categoryName}`)
             },
             {
                 path: '/booking/:id',
                 element: <PrivateRoute><BookingsDetails></BookingsDetails></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/booking/${params.id}`)
+                loader: ({ params }) => fetch(`https://hero-hotel-server.vercel.app/booking/${params.id}`)
             },
             {
                 path: '/login',
@@ -43,7 +43,7 @@ export const router = createBrowserRouter([
             {
                 path:'/payment/:id',
                 element:<PrivateRoute><Payment></Payment></PrivateRoute>,
-                loader:({params})=>fetch(`http://localhost:5000/payment/${params.id}`)
+                loader:({params})=>fetch(`https://hero-hotel-server.vercel.app/payment/${params.id}`)
             }
 
         ])

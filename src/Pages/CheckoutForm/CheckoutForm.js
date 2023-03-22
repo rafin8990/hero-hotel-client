@@ -15,7 +15,7 @@ const CheckoutForm = ({ paymentData }) => {
     const elements = useElements();
 
     useEffect(() => {
-        fetch("http://localhost:5000/create-payment-intent", {
+        fetch("https://hero-hotel-server.vercel.app/create-payment-intent", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ price }),
@@ -80,7 +80,7 @@ const CheckoutForm = ({ paymentData }) => {
 
             }
 
-            fetch('http://localhost:5000/payments', {
+            fetch('https://hero-hotel-server.vercel.app/payments', {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

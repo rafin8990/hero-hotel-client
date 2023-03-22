@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const MyBookings = () => {
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allbooking')
+        fetch('https://hero-hotel-server.vercel.app/allbooking')
             .then(res => res.json())
             .then(data => setBookings(data))
     }, [])
