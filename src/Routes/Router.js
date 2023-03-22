@@ -5,6 +5,7 @@ import Items from "../Pages/CategoryItem/Items/Items";
 import Home from "../Pages/HomePage/Home/Home";
 import Login from "../Pages/Login/Login";
 import MyBookings from "../Pages/MyBookings/MyBookings";
+import Payment from "../Pages/Payment/Payment";
 import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 
@@ -38,6 +39,11 @@ export const router = createBrowserRouter([
             {
                 path: '/mybooking',
                 element: <PrivateRoute><MyBookings></MyBookings></PrivateRoute>
+            },
+            {
+                path:'/payment/:id',
+                element:<PrivateRoute><Payment></Payment></PrivateRoute>,
+                loader:({params})=>fetch(`http://localhost:5000/payment/${params.id}`)
             }
 
         ])
