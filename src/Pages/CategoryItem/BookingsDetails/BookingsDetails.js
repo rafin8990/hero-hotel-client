@@ -40,7 +40,7 @@ const BookingsDetails = () => {
         .then(data=>{
             if(data.acknowledged){
                 alert('Your Room booking Successfully Added to the cart')
-                navigate('/mybooking')
+                navigate(`/mybooking/${email}`)
             }
         })
     }

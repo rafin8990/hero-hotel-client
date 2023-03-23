@@ -21,7 +21,7 @@ const Navber = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link className='text-white' href="/">Home</Nav.Link>
-                            <Nav.Link className='text-white' href="/mybooking">My Booking</Nav.Link>
+                            <Nav.Link className='text-white' href={`/mybooking/${user?.email}`}>My Booking</Nav.Link>
                         </Nav>
                         <Nav>
                             {

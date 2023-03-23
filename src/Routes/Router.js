@@ -37,8 +37,9 @@ export const router = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: '/mybooking',
-                element: <PrivateRoute><MyBookings></MyBookings></PrivateRoute>
+                path: '/mybooking/:email',
+                element: <PrivateRoute><MyBookings></MyBookings></PrivateRoute>,
+                loader:({params})=>fetch(`https://hero-hotel-server.vercel.app/allbooking?email=${params.email}`)
             },
             {
                 path:'/payment/:id',

@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Button } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const MyBookings = () => {
-    const [bookings, setBookings] = useState([]);
-    useEffect(() => {
-        fetch('https://hero-hotel-server.vercel.app/allbooking')
-            .then(res => res.json())
-            .then(data => setBookings(data))
-    }, [])
+    const bookings =useLoaderData();
+   
     return (
         <div className='container my-5'>
             <Table striped bordered hover size="sm">
